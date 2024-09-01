@@ -397,6 +397,7 @@ h1, h2, h3, h4, h5, h6 {
     transform: scale(1.1);
 }
 
+
 .home {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -473,13 +474,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 .home__text {
     color: #666666;
-    max-width: 400px;
+    max-width: 700px;
+    font-size: 1rem;
     text-align: center;
-    font-size: 1.2rem;
 }
 @media (min-width: 386px) {
     .home__text {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
     }
 }
 .home__button {
@@ -985,7 +986,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (min-width: 900px) {
     .portfolio__sub-title {
-        font-size: 8.4rem;
+        font-size: 5rem;
     }
 }
 .portfolio__box {
@@ -1034,10 +1035,12 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 .portfolio__img {
-    -webkit-box-shadow: 2px 2px 10px rgba(140, 140, 140, 0.27);
-    box-shadow: 2px 2px 10px rgba(140, 140, 140, 0.27);
+    -webkit-box-shadow: -8px -8px 20px rgba(140, 140, 140, 0.27);
+box-shadow: -8px -8px 20px rgba(140, 140, 140, 0.27);
+
     border-radius: 1.8rem;
     width: 90vw;
+    height: 400px;
     -webkit-transition: -webkit-transform 0.2s ease-in-out;
     transition: -webkit-transform 0.2s ease-in-out;
     -o-transition: transform 0.2s ease-in-out;
@@ -1134,7 +1137,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (min-width: 900px) {
     .skills__sub-title {
-        font-size: 8.4rem;
+        font-size: 5rem;
     }
 }
 @media (min-width: 1024px) {
@@ -1420,7 +1423,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (min-width: 900px) {
     .resume__sub-title {
-        font-size: 8.4rem;
+        font-size: 5rem;
     }
 }
 .resume__box {
@@ -1598,12 +1601,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (min-width: 768px) {
     .contact__sub-title {
-        font-size: 7.2rem;
+        font-size: 5rem;
     }
 }
 @media (min-width: 900px) {
     .contact__sub-title {
-        font-size: 8.4rem;
+        font-size: 5rem;
     }
 }
 .contact__text {
