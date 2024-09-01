@@ -1036,11 +1036,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 .portfolio__img {
     -webkit-box-shadow: -8px -8px 20px rgba(140, 140, 140, 0.27);
-box-shadow: -8px -8px 20px rgba(140, 140, 140, 0.27);
-
+    box-shadow: -8px -8px 20px rgba(140, 140, 140, 0.27);
     border-radius: 1.8rem;
     width: 90vw;
-    height: 400px;
+    height: 250px;
     -webkit-transition: -webkit-transform 0.2s ease-in-out;
     transition: -webkit-transform 0.2s ease-in-out;
     -o-transition: transform 0.2s ease-in-out;
@@ -1051,6 +1050,7 @@ box-shadow: -8px -8px 20px rgba(140, 140, 140, 0.27);
     .portfolio__img {
         border-radius: 2.5rem;
         width: min(45vw, 70rem);
+        height: 400px;
     }
 }
 .portfolio__img:hover {
